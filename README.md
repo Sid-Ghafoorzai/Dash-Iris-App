@@ -3,7 +3,10 @@ Description
 This project demonstrates a Dash-based web application to visualize the famous Iris dataset. The app allows users to interactively explore relationships between features in the dataset, such as sepal length, sepal width, petal length, and petal width, through scatter plots and other visualizations.
 
 Dataset
-The Iris dataset is a classic dataset in machine learning and statistics, containing:
+The Iris dataset used in this project is a public dataset originally published by Ronald A. Fisher in 1936. It is widely used for machine learning and statistical analysis tasks.
+
+Source: Fisher, R.A. (1936). The Use of Multiple Measurements in Taxonomic Problems.
+The dataset is loaded from scikit-learn.
 
 Features: Sepal length, sepal width, petal length, and petal width.
 Target Classes: Iris-setosa, Iris-versicolor, and Iris-virginica.
@@ -44,7 +47,7 @@ pip install -r requirements.txt
 Run the Dash app:
 bash
 Copy code
-python Excercies_2_Task_1_Dash_APP_IRIS.py
+Dash_APP_IRIS.py
 Open your browser and navigate to http://127.0.0.1:8050/ to view the application.
 Results
 The Dash app provides an intuitive way to visualize the Iris dataset, offering insights into the relationships between features and the separability of the target classes.
